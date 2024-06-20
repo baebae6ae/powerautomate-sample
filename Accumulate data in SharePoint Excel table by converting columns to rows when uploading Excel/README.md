@@ -1,5 +1,8 @@
-# powerautomate-sample
+# Accumulate data in SharePoint Excel table by converting columns to rows when uploading Excel
 SharePoint에 파일 업로드 시 특정 열에 나열된 데이터를 또 다른 파일에 행으로 추가하여 다수의 데이터를 자동으로 축적 및 정리
+
+![image](https://github.com/baebae6ae/powerautomate-sample/assets/49053443/6273264f-72ff-4d2d-8177-897b5d2f10f0)
+
 
 Excel 열에 나열된 데이터를 SharePoint에 업로드 시 하나의 행으로 변환하여 또 다른 Excel 파일에 저장합니다.
 다수의 Excel에 각각 기록되어 있는 데이터를 업로드 한번으로 하나의 테이블로 정리하는데에 사용할 수 있습니다.

@@ -26,8 +26,11 @@ Excel 열에 나열된 데이터를 SharePoint에 업로드 시 하나의 행으
    각 행에 outputs('작성')?[0][‘열 이름'], outputs('작성')?[1][‘열 이름'], outputs('작성')?[2][‘열 이름']... 입력
 
 결과
+
 ![image](https://github.com/baebae6ae/powerautomate-sample/assets/49053443/e7580422-ed21-46ad-97dc-532f52121135)
+
 [업로드 파일]
 
 ![image](https://github.com/baebae6ae/powerautomate-sample/assets/49053443/d1c9423e-7f71-4571-9ee3-fa60b8e0732a)
+
 [SharePoint 내 파일에 행 추가하여 정리]

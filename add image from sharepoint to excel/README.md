@@ -22,7 +22,7 @@ you can add image from attached files of sharepoint list to excel worksheet usin
 
  - script to add image(Please create a script in the Excel file)
 
-/*function main(workbook: ExcelScript.Workbook, imageBase64: string, cellAddress: string) {
+function main(workbook: ExcelScript.Workbook, imageBase64: string, cellAddress: string) {
   if (!imageBase64) {
     // 이미지가 입력되지 않았을 경우, 함수를 바로 종료
     return;
@@ -42,8 +42,7 @@ you can add image from attached files of sharepoint list to excel worksheet usin
       picture.setHeight(140);
       picture.setWidth(105);
   }
-
-}*/
+}
 * Contents same as filename are in C row and images will be in D row
 
  - cellAddress: substring(items('Apply_each_3')?['Title'],0,indexOf(items('Apply_each_3')?['Title'],'?'))

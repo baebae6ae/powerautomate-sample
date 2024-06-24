@@ -21,13 +21,14 @@ you can add image from attached files of sharepoint list to excel worksheet usin
 5) run script_Apply each4_Apply each3
 
  - script to add image(Please create a script in the Excel file)
-
+'''
 function main(workbook: ExcelScript.Workbook, imageBase64: string, cellAddress: string) {
 
   if (!imageBase64) {
 
     return;
   }
+  
     let worksheet = workbook.getWorksheet("sheet1");
     let picture = workbook.getWorksheet("sheet1").addImage(imageBase64);
 
@@ -44,6 +45,7 @@ function main(workbook: ExcelScript.Workbook, imageBase64: string, cellAddress: 
       picture.setWidth(105);
   }
 }
+'''
 * Contents same as filename are in C row and images will be in D row
 
  - cellAddress: substring(items('Apply_each_3')?['Title'],0,indexOf(items('Apply_each_3')?['Title'],'?'))

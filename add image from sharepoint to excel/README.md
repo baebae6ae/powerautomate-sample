@@ -23,8 +23,9 @@ you can add image from attached files of sharepoint list to excel worksheet usin
  - script to add image(Please create a script in the Excel file)
 
 function main(workbook: ExcelScript.Workbook, imageBase64: string, cellAddress: string) {
+
   if (!imageBase64) {
-    // 이미지가 입력되지 않았을 경우, 함수를 바로 종료
+
     return;
   }
     let worksheet = workbook.getWorksheet("sheet1");

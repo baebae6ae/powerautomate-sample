@@ -3,22 +3,22 @@
 you can add image from attached files of sharepoint list to excel worksheet using power automate
 
 ![image](https://github.com/baebae6ae/powerautomate-sample/assets/49053443/ffbdc9a8-96e6-4773-9f61-224a6176de73)
-1) get items
+1. get items
 
 
 ![image](https://github.com/baebae6ae/powerautomate-sample/assets/49053443/0feab11d-301b-45b6-b1cf-1c0d9f91e6bd)
-2) get attached files_Apply each3
+2. get attached files_Apply each3
 
-3) get attached file contents_Apply each4_Apply each3
+3. get attached file contents_Apply each4_Apply each3
 
  - The file names are the same as the contents of a specific cell in Excel. To find the cell and insert the image.
 
 ![image](https://github.com/baebae6ae/powerautomate-sample/assets/49053443/0649ae3a-4b17-4ab5-bf65-c3eb537089a5)
-4) compose_Apply each4_Apply each3
+4. compose_Apply each4_Apply each3
 
  - base64(body('get_attached_file_contents'))
 
-5) run script_Apply each4_Apply each3
+5. run script_Apply each4_Apply each3
 
  - script to add image(Please create a script in the Excel file)
 ```
